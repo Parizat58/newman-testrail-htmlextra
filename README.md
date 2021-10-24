@@ -17,7 +17,7 @@ A [Newman](https://github.com/postmanlabs/newman) HTML reporter and testrail rep
 
 
 ## Usage
-- pull the image and run the container with the following command. Once the run has finished it will create a report html file in the `/newman` directory and it will generate results to testrail:
+- pull the image and run the container with the following command. Once the run has finished it will create a report html file in the `/newman` directory and will report the results to testrail:
 
 ```docker run -t -v $(pwd):/etc/newman parizat58/testrail-htmlextra --env TESTRAIL_DOMAIN={domain_here} --env TESTRAIL_USERNAME={username_here} --env TESTRAIL_APIKEY={api_key_here} --env TESTRAIL_TITLE={test_run_title_here} --env TESTRAIL_PROJECTID={project_id_here} --env TESTRAIL_RUNID={run_id_here} --env TESTRAIL_LOGGING={headers, none, default=full} run <URL to Collection or collection.json file> -e <URL to Environment or environment.json file> -r testrail,htmlextra```
 
