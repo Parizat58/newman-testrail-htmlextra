@@ -11,8 +11,9 @@
 A [Newman](https://github.com/postmanlabs/newman) HTML reporter and testrail reporter that could be used in connecting testrail and generating html report at the same run. 
 
 ## Example report
-htmlextra: Please refer to the npm package page [newman-reporter-htmlextra](https://www.npmjs.com/package/newman-reporter-htmlextra)
-testrail: Please refer to the npm package page [newman-reporter-testrail](https://www.npmjs.com/package/newman-reporter-testrail)
+**htmlextra**: Please refer to the npm package page [newman-reporter-htmlextra](https://www.npmjs.com/package/newman-reporter-htmlextra)
+
+**testrail**: Please refer to the npm package page [newman-reporter-testrail](https://www.npmjs.com/package/newman-reporter-testrail)
 
 
 ## Usage
