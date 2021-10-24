@@ -15,6 +15,10 @@ A [Newman](https://github.com/postmanlabs/newman) HTML reporter and testrail rep
 
 **testrail**: Please refer to the npm package page [newman-reporter-testrail](https://www.npmjs.com/package/newman-reporter-testrail)
 
+For further cli options and configuration, please refer to the official npm package or the following artical:
+
+[How to Integrate TestRail with Postman / Newman API Tests](https://medium.com/apis-with-valentine/how-to-integrate-testrail-with-postman-newman-api-tests-cc0380998d04)
+
 
 ## Usage
 - pull the image and run the container with the following command. Once the run has finished it will create a report html file in the `/newman` directory and will report the results to testrail:
