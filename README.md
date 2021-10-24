@@ -1,7 +1,7 @@
 # newman-testrail-htmlextra
 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/parizat58/testrail-htmlextra?style=flat-square)](https://hub.docker.com/r/parizat58/testrail-htmlextra)
+[![Docker Pulls](https://img.shields.io/docker/pulls/parizat58/testrail-htmlextra??style=for-the-badge&logo=docker)](https://hub.docker.com/r/parizat58/testrail-htmlextra)
 
 
 A [Newman](https://github.com/postmanlabs/newman) [HTML](https://github.com/DannyDainton/newman-reporter-htmlextra) reporter and [testrail](https://www.npmjs.com/package/newman-reporter-testrail) reporter that could be used in connecting testrail and generating html report at the same run. 
